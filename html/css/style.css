@@ -38,6 +38,13 @@
     transition: ease all 0.5s;
 }
 
+.filmsekil {
+    height: 50%;
+    width: 100%;
+}
+
+ 
+
 html {
     scroll-behavior: smooth;
 }
@@ -71,11 +78,12 @@ h6 {
     letter-spacing: 0;
     font-weight: normal;
     position: relative;
-    padding: 0 0 10px 0;
+    padding: 3 3 10px 0;
     font-weight: normal;
     line-height: normal;
     color: #111111;
-    margin: 0
+    margin: 0;
+    
 }
 
 h1 {
@@ -87,7 +95,9 @@ h2 {
 }
 
 h3 {
-    font-size: 18px
+    padding-top: 20px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
 }
 
 h4 {
@@ -95,6 +105,9 @@ h4 {
 }
 
 h5 {
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+
     font-size: 14px
 }
 
@@ -261,9 +274,10 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background: linear-gradient(110deg, #3c0e0e 55%, rgba(60, 90, 90, 0) 55%), url(../images/banner-bg.png);
+    background: linear-gradient(110deg, #3c0e0e 55%, rgba(60, 90, 90, 0) 55%), url(../images/baner.jpeg );
     position: relative;
     padding-bottom: 90px;
+
 }
 
 .banner_taital {
